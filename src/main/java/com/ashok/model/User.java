@@ -1,4 +1,4 @@
-package com.mvc.form.apps.model;
+package com.ashok.model;
 
 public class User {
 

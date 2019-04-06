@@ -11,14 +11,32 @@
 <body>
 
 	<h1>Register here</h1>
-	
+
 	<form:form action="regUser.htm" method="POST" modelAttribute="user">
-		Username : <form:input path="uname" /> <br/>
-		Password : <form:password path="pwd"/> <br/>
-		Email : <form:input path="email"/> <br/>
-		
-		<input type="submit" value="Register" />
-	
+
+		<table>
+
+			<tr>
+				<td>Username:</td>
+				<td><form:input path="uname" /></td>
+			</tr>
+
+			<tr>
+				<td>Password:</td>
+				<td><form:password path="pwd" /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><form:input path="email" /></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="Reset" /></td>
+				<td><input type="submit" value="Register" /></td>
+			</tr>
+
+		</table>
+
+
 	</form:form>
 
 </body>
