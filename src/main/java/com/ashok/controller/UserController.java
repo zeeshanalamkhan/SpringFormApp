@@ -20,7 +20,7 @@ public class UserController {
 	@RequestMapping(value = "/regUser.htm", method = RequestMethod.POST)
 	public String regUser(Model model, @ModelAttribute("user") User u) {
 		model.addAttribute("user", u);
-		return "display"
+		return "display";
 	}
 
 }
