@@ -1,7 +1,7 @@
 package com.ashok.model;
 
 public class User {
-
+	
 	private String uname;
 	private String pwd;
 	private String email;
@@ -29,7 +29,7 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	//overridden toString()
 	@Override
 	public String toString() {
 		return "User [uname=" + uname + ", pwd=" + pwd + ", email=" + email + "]";
